@@ -490,7 +490,7 @@ article{position: relative; float: left; width: 100%;}
 .overlay-menu .col-md-2{padding: 0;}
 
 .btn-close *{backface-visibility:  hidden;}
-.btn-close{width: 46px; height: 46px; background: #151515; display: block; position: absolute; right: 35px; top: 30px; cursor: pointer; z-index: 7;}
+.btn-close{width: 46px; height: 46px; background: #151515; border-radius: 50%; display: block; position: absolute; right: 35px; top: 30px; cursor: pointer; z-index: 7;}
 .btn-close span{width: 14px; height: 2px; position: absolute; left: 50%; top: 50%; margin: -1px 0 0 -7px; background: white; transform: rotate(45deg); -webkit-transform: rotate(45deg);}
 .btn-close span:nth-child(2){transform: rotate(135deg); -webkit-transform: rotate(135deg);}
 
@@ -1501,7 +1501,6 @@ _:-ms-fullscreen, :root .bloom.index03 .quote .quote-nav.active{opacity: 1;}
 }
 
 .overlay-wrapper.video {z-index: 50;}
-
 
 
 
